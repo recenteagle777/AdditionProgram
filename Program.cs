@@ -13,7 +13,8 @@ namespace AdditionProgram
             int x = 0, y = 0;
             Program n = new Program();
             n.inputMethod(out x, out y);
-            Console.WriteLine("Addition of two integers are: {0}", x+y);
+            Console.WriteLine("Addition of two integers is: {0}", x + y);
+            Console.WriteLine("Substraction of two integers is: {0}", x - y);
             Console.ReadKey();
         }
 
